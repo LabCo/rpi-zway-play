@@ -104,3 +104,5 @@ And that is is, you can go to the resin's console and see your device downloadin
 Visit `IP_ADDRESS/api/v1/events` to see events from zway.
 
 Visit `IP_ADDRESS:8083` for the zway interface
+
+To prevent SD card corruption, use some kind of a UPS hat with your Pi. Yanking the power cord will unsafely kill the pi with the potential of the SD card corrupting requiring a full reimaging of the SD card. It is not fun.
