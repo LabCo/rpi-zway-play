@@ -98,5 +98,6 @@ Because the razberry runs over the serial port over the gpio slots we need to en
 
 And that is is, you can go to the resin's console and see your device downloading the code and then running it. Resin will tell you the ip address.
 
-Visit IP_ADDRESS/api/v1/events to see events from zway.
-Visit IP_ADDRESS:8083 for the zway interface
+Visit `IP_ADDRESS/api/v1/events` to see events from zway.
+
+Visit `IP_ADDRESS:8083` for the zway interface
