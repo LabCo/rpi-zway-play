@@ -32,7 +32,7 @@ start with a new play-scala project
 
 create a ZWayEvent model to parse the Json coming in from the post https://github.com/LabCo/rpi-zway-play/blob/master/app/models/ZWayEvent.scala
 
-create a helper to write i18n strings to json, not really necessary but such a small set up but ApiController code requires it https://github.com/LabCo/rpi-zway-play/blob/master/app/play/api/libs/json/RichJsError.scala
+create a helper to write i18n strings to json, not really necessary for such a small set up but ApiController code requires it and it is useful later https://github.com/LabCo/rpi-zway-play/blob/master/app/play/api/libs/json/RichJsError.scala
 
 create an ApiController.scala to handle the json parsing https://github.com/LabCo/rpi-zway-play/blob/master/app/controllers/api/ApiController.scala
 
